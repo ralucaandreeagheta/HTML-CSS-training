@@ -1,0 +1,56 @@
+/* CSS Document */
+body {
+	background: tan;
+	font-family: Gotham, serif; 
+}
+
+div {
+	
+}
+
+#content {
+    padding: 10px 20px 10px 20px;
+    width: 70%;
+    margin: auto;
+}
+
+h1 {
+}
+
+h2 {
+}
+
+p {
+}
+.price {
+	color: darkgreen;
+}
+
+#contact {
+	text-align: center;
+	padding: 40px;
+	font-size: 150%;
+}
+
+a:link {
+	color: saddlebrown;
+	text-decoration: none;
+}
+a:visited {
+	color: darkgreen;
+	text-decoration: none;
+}
+a:hover {
+	color: green;
+	text-decoration-line: none;
+	border-bottom: thin dashed green;
+}
+
+#test {
+	box-sizing: border-box;
+	width: 200px;
+	padding: 10px;
+	margin: 20px;
+	background-color: yellow;
+	border: 10px #C00003 solid;
+}
