@@ -1,0 +1,9 @@
+/* CSS Document */
+
+.alert{
+	color: red;
+}
+
+.row > div {
+	border: medium solid #007BE7;
+}
