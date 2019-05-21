@@ -1,0 +1,6 @@
+/* CSS Document */
+
+body {
+	background-color: var(--bgcolor, black);
+	color: var(--txtcolor, white);
+}
