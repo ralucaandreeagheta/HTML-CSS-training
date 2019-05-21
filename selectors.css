@@ -1,0 +1,77 @@
+/* CSS Document */
+body {
+	font-family: 'Macondo Swash Caps', cursive;
+	font-family: 'Pacifico', cursive;
+}
+
+p::first-letter {
+	font-size: 1.5em;
+	color: red;
+	font-weight: bold;
+	padding-left: 1em;
+}
+
+p::first-line {
+	color: #aaa;
+}
+
+.container {
+	display: flex;
+}
+
+.container div {
+	width: 40px; 
+	height: 40px;
+	margin: 4px;
+	background-color: white;
+	border-width: 2px;
+	border-color: black;
+	border-style: solid;
+}
+
+.container div:first-child,
+.container div:last-child
+{
+	background-color: black;
+	transform: rotate(45deg);
+}
+
+.container div:nth-child(6) {
+	transform: rotate(45deg);
+	background-color: yellow;
+}
+
+.container div:nth-child(even) {
+	transform: scale(0.70);
+	background-color: red;
+	
+}
+
+.container div[dataˆ=bar1] {
+	border-color: burlywood;
+	border-width: 2px;
+	border-style: solid;
+}
+
+.another {
+	display: flex;
+}
+
+.another div {
+	width: 50px;
+	height: 50px;
+	background-color: yellow;
+	margin: 10px;
+	margin-top: 50px;
+}
+
+.another::before {
+	content: 'Here is a div:';
+	display: block;
+	color: black;
+}
+
+.another div:hover::after {
+	content: 'Here is a div';
+	display: block;
+}
